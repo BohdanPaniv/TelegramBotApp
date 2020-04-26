@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="DbConnectionString-Web.config Connection String" description="DbConnectionString Строка подключения в web.config, используемая приложением для доступа к базе данных." defaultValue="Server=guidecitydb.mysql.database.azure.com; Port=3306; Database=telegrambotdb; Uid=lester@guidecitydb; Pwd=dGh3342Jdw;CharSet=UTF8; SslMode=Preferred;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Bogdan_PC\\source\\create_bot\\final\\TelegramBotApp\\TelegramBotApp\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DbConnectionString']/@connectionString" />
+  </parameter>
+</parameters>
